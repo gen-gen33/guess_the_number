@@ -5,23 +5,6 @@
 
 int main() {
     std::cout << "数当てゲームへようこそ！\n";
-<<<<<<< HEAD
-    std::cout << "難易度を選択してください：\n";
-    std::cout << "command...\n";
-    std::cout << "1: 1~10\n";
-    std::cout << "2: 1~100\n";
-    std::cout << "3: 1~1000\n";
-    int difficulty = 0;
-    int max_num = 0;
-    while (true) {
-        std::cin >> difficulty;
-        // 入力エラーが発生した場合
-        if (std::cin.fail()) {
-            std::cout << "無効な入力です！数値を入力してください。\n";
-            std::cin.clear();               // エラー状態をクリア
-            std::cin.ignore(1000, '\n');    // 入力バッファをクリア
-            continue;
-=======
     while (true) {
         std::cout << "難易度を選択してください：\n";
         std::cout << "command...\n";
@@ -45,7 +28,6 @@ int main() {
                 std::cout << "難易度"<<difficulty<<"\n";
                 break;
             }
->>>>>>> replay
         }
         max_num = pow(10, difficulty);
 
