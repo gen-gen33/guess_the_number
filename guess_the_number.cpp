@@ -5,9 +5,6 @@
 
 int main() {
     std::cout << "数当てゲームへようこそ！\n";
-    while (true) {
-
-    }
     std::cout << "難易度を選択してください：\n";
     std::cout << "command...\n";
     std::cout << "1: 1~10\n";
