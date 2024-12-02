@@ -63,6 +63,17 @@ int main() {
                 std::cout << "もっと小さいです！\n";
             }
         }
+
+        // もう一度プレイするかどうか確認
+        char play_again;
+        std::cout << "もう一度プレイしますか？ (y/n):";
+        std::cin >> play_again;
+        if (play_again != 'y' && play_again != 'Y') {
+            std::cout << "ゲームを終了します。ありがとうございました！\n";
+            break;
+        }
+
+        std::cout << "\n再挑戦します!\n";
     }
 
     return 0;
