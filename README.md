@@ -12,5 +12,5 @@
 
 2. プログラムを実行：
    ```bash
-   .guess_name
+   .guess_game
    ```
